@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test Page</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://dds.dell.com/components/2.27.0/js/index.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://dds.dell.com/components/2.27.0/css/dds-reboot.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://dds.dell.com/components/2.27.0/css/dds-fonts.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://dds.dell.com/components/2.27.0/css/dds-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://dds.dell.com/components/2.27.0/css/dds-helpers.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://dds.dell.com/components/2.27.0/css/dds-main.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://dds.dell.com/components/2.27.0/css/dds-templates.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://sales-sit-g4.dell.com/salesapp/design/global.css"
+    />
+  </head>
+
+  <body class="dds__m-0 dds__w-100">
+        
+    <div class="dds__container-fluid dds__h-100 dds__p-3" id="parentDiv"></div>
+  </body>
+
+  <script>
+   
+  
+      var element = document.getElementsByTagName('mfe-guys-forever')[0];    
+      if (element) element.remove();    
+      const mfeElement = document.createElement('mfe-guys-forever');    
+      const parentDiv = document.querySelector('#parentDiv');    
+      parentDiv.removeAttribute('style');    
+      parentDiv.appendChild(mfeElement);
+    // dataInforValidation();
+    // disabledButton();
+  </script>
+</html>
